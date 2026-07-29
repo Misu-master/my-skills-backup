@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "14c2fe96-2ebf-491a-a161-3b443cc94238",
+  "name": "逆向",
+  "description": "网页逆向工程",
+  "icon": "code-2",
+  "sort_order": 999
+}

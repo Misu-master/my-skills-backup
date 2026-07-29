@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa23ab58-83e7-43d4-9a27-0b4951dedf1f",
+  "path": "lark-markdown",
+  "path_key": "lark-markdown",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli.git",
+    "subpath": "skills\\lark-markdown",
+    "branch": null
+  }
+}

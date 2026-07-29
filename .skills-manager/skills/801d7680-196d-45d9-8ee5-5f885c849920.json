@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "801d7680-196d-45d9-8ee5-5f885c849920",
+  "path": "lark-im",
+  "path_key": "lark-im",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli.git",
+    "subpath": "skills\\lark-im",
+    "branch": null
+  }
+}

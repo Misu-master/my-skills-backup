@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aee0f5d5-ea4e-4f8f-bcc8-527d414a217c",
+  "path": "lark-vc",
+  "path_key": "lark-vc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli.git",
+    "subpath": "skills\\lark-vc",
+    "branch": null
+  }
+}

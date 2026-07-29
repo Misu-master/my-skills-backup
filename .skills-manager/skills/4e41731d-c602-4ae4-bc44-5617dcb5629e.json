@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e41731d-c602-4ae4-bc44-5617dcb5629e",
+  "path": "lark-shared",
+  "path_key": "lark-shared",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli.git",
+    "subpath": "skills\\lark-shared",
+    "branch": null
+  }
+}
