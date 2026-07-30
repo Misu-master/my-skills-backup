@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4b36fc7c-9e8f-4ca9-b6d1-32329107affe",
+  "path": "git-commit-message",
+  "path_key": "git-commit-message",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
