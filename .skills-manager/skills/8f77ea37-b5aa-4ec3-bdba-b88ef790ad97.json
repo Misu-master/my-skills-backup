@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8f77ea37-b5aa-4ec3-bdba-b88ef790ad97",
+  "path": "speckit-checklist",
+  "path_key": "speckit-checklist",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "dceoy/speckit-agent-skills/speckit-checklist",
+    "subpath": "skills\\speckit-checklist",
+    "branch": null
+  }
+}

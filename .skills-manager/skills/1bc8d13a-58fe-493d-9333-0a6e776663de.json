@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1bc8d13a-58fe-493d-9333-0a6e776663de",
+  "path": "speckit-implement",
+  "path_key": "speckit-implement",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "dceoy/speckit-agent-skills/speckit-implement",
+    "subpath": "skills\\speckit-implement",
+    "branch": null
+  }
+}

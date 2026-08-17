@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9717595b-f3a3-4ae1-9734-241886fc6129",
+  "path": "speckit-clarify",
+  "path_key": "speckit-clarify",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "dceoy/speckit-agent-skills/speckit-clarify",
+    "subpath": "skills\\speckit-clarify",
+    "branch": null
+  }
+}

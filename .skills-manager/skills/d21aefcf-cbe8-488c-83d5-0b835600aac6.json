@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d21aefcf-cbe8-488c-83d5-0b835600aac6",
+  "path": "speckit-taskstoissues",
+  "path_key": "speckit-taskstoissues",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "dceoy/speckit-agent-skills/speckit-taskstoissues",
+    "subpath": "skills\\speckit-taskstoissues",
+    "branch": null
+  }
+}

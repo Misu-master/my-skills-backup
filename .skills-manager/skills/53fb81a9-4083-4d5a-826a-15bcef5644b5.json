@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "53fb81a9-4083-4d5a-826a-15bcef5644b5",
+  "path": "speckit-analyze",
+  "path_key": "speckit-analyze",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "dceoy/speckit-agent-skills/speckit-analyze",
+    "subpath": "skills\\speckit-analyze",
+    "branch": null
+  }
+}
