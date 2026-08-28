@@ -3,5 +3,8 @@
   "scenario_id": "584b9d95-50da-43cb-9c37-f2f39ba6e9dd",
   "skill_id": "94cecc82-8bbd-4b2e-8767-597aff3fac01",
   "sort_order": 3,
-  "tools": {}
+  "tools": {
+    "codex": true,
+    "trae": true
+  }
 }
