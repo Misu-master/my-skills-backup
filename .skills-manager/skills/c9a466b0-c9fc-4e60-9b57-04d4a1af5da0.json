@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9a466b0-c9fc-4e60-9b57-04d4a1af5da0",
+  "path": "lark-openapi-explorer",
+  "path_key": "lark-openapi-explorer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli/tree/main/skills",
+    "subpath": "skills\\lark-openapi-explorer",
+    "branch": "main"
+  }
+}

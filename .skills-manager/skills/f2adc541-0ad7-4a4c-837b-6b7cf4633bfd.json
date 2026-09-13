@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f2adc541-0ad7-4a4c-837b-6b7cf4633bfd",
+  "path": "lark-contact",
+  "path_key": "lark-contact",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli/tree/main/skills",
+    "subpath": "skills\\lark-contact",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3332cac7-0eed-4825-ade8-5802312150e2",
+  "path": "lark-okr",
+  "path_key": "lark-okr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli/tree/main/skills",
+    "subpath": "skills\\lark-okr",
+    "branch": "main"
+  }
+}

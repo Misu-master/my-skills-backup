@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f06f21a1-efa6-43b5-87fc-2aad3dbbe123",
+  "path": "lark-calendar",
+  "path_key": "lark-calendar",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli/tree/main/skills",
+    "subpath": "skills\\lark-calendar",
+    "branch": "main"
+  }
+}

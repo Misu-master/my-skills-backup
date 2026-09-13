@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "016994f2-d95f-4bc7-b791-18e77dce1e32",
+  "path": "lark-apps",
+  "path_key": "lark-apps",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli/tree/main/skills",
+    "subpath": "skills\\lark-apps",
+    "branch": "main"
+  }
+}
