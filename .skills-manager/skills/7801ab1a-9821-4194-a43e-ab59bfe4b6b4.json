@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7801ab1a-9821-4194-a43e-ab59bfe4b6b4",
+  "path": "ui-ux-pro-max",
+  "path_key": "ui-ux-pro-max",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://gh-proxy.com/https://github.com/nextlevelbuilder/ui-ux-pro-max-skill?tab=readme-ov-file",
+    "subpath": ".claude\\skills\\ui-ux-pro-max",
+    "branch": null
+  }
+}
