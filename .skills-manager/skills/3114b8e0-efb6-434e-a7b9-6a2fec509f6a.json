@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3114b8e0-efb6-434e-a7b9-6a2fec509f6a",
+  "path": "dingtalk-minutes",
+  "path_key": "dingtalk-minutes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

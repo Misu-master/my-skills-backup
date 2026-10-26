@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ef75776-a589-47c1-8238-e8ae1dd8718e",
+  "path": "dingtalk-todo",
+  "path_key": "dingtalk-todo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

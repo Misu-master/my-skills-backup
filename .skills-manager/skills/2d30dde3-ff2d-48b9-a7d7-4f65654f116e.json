@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2d30dde3-ff2d-48b9-a7d7-4f65654f116e",
+  "path": "dingtalk-aitable",
+  "path_key": "dingtalk-aitable",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

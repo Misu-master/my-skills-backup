@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5ee4a465-e100-4c25-8343-3d50359e9593",
+  "path": "dingtalk-drive",
+  "path_key": "dingtalk-drive",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

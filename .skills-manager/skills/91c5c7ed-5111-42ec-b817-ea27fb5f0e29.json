@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "91c5c7ed-5111-42ec-b817-ea27fb5f0e29",
+  "path": "dingtalk-aisearch",
+  "path_key": "dingtalk-aisearch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

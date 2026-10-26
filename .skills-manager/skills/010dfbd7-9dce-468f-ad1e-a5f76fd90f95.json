@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "010dfbd7-9dce-468f-ad1e-a5f76fd90f95",
+  "path": "dingtalk-aicard",
+  "path_key": "dingtalk-aicard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

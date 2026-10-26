@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7559a95e-b949-49fb-8413-89d492d645f5",
+  "path": "dingtalk-mail",
+  "path_key": "dingtalk-mail",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d0c652f4-da26-44a8-b951-794600512d04",
+  "path": "dingtalk-calendar",
+  "path_key": "dingtalk-calendar",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
