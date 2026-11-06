@@ -29,6 +29,12 @@ Read this **before hand-writing any `.drawio` XML** (workflow step 3). Skip it w
 - Escape special characters in attribute values: `&amp;`, `&lt;`, `&gt;`, `&quot;`
 - **Multi-line text in labels:** use `&#xa;` for line breaks inside `value` attributes (not literal `\n`). Example: `value="Line 1&#xa;Line 2"`
 
+### SVG text labels
+
+For diagrams destined for web output (including GitHub-rendered SVGs, HTML viewers, or slides rendered as SVG), add `convertToSvg=1;` to each text-bearing cell's style, for example `style="rounded=1;whiteSpace=wrap;html=1;convertToSvg=1;"`. This draw.io 28.0.3+ per-cell setting exports convertible labels as selectable, searchable SVG text instead of raster fallbacks. It is not an export-command switch; generic export commands need no change.
+
+Some content cannot be converted and remains HTML/raster: tables, lists, links, images, cells with `background-color`, and vertical writing. SVG text has no automatic word wrapping; line breaks are fixed at export, so re-export after resizing a shape or lengthening a label. Word-wrapped SVG text requires draw.io 29.6.7 or later.
+
 ### Shape types (vertex)
 
 | Style keyword | Use for |
@@ -206,3 +212,15 @@ Rules: swatch colors come from the active palette (preset or the table above) wi
 - For tree/hierarchical layouts: assign nodes to layers (rows), connect only between adjacent layers to minimize crossings
 - For star/hub layouts: place the hub center, satellites around it — edges stay short and radial
 - When an edge must span multiple rows/columns, route it along the outer corridor, not through the middle of the diagram
+
+### Decision-diamond branches, pixel-exact pins, and labels
+
+Pitfalls verified from rendered output. `validate.py` does not catch any of them, and vision review both misses them and hallucinates new ones (it once described a clean diamond exit as "wrapping around the box" and approved a screenshot that was actually the browser error page).
+
+| Pitfall | Rule |
+| ------- | ---- |
+| Edge exits the rhombus's left/right side with its first segment heading *inward* (`exitX=0;exitY=0.25` with its target to the right at the same height): the elbow's horizontal run crosses the diamond's own interior. At the exact vertex (`exitY=0.5`) the router instead detours around the whole shape, which reads no better | Vertex exits must head outward (left vertex → left, right → right, top → up, bottom → down). When both branch targets sit *below* the decision (left and right), skip the elbow entirely: draw one straight line per branch with `edgeStyle=none` from the lower-left / lower-right **edge midpoint** (`exitX=0.25;exitY=0.75` / `exitX=0.75;exitY=0.75` — both points lie on the rhombus outline) to each target's top center. Symmetric, no right angle, nothing to cross. |
+| Vertical edge whose `entryX` is 1–2 px off the source's exit x (easy to hit when boxes snap to a 10 px grid) | Compute the pin with full precision: `entryX = (sourceCenterX − target.x) / target.width`, e.g. `0.0652`, `0.2027`. Style values accept more than two decimals. A 1–2 px mismatch renders as an S-shaped double curve (two `Q` bends) just before the arrowhead. |
+| `blockThin` arrowheads (~5×7 px) flush against the target border | Reviewers read the tip as "piercing the box". Use `endArrow=block;endSize=8` for main flow edges. |
+| Long labels auto-centered on their own edge | The white label chip visually severs the edge, and near a corner it can cut both segments. Keep only micro-labels (`Yes` / `No`) on the line; offset longer labels (`<mxPoint as="offset" x="…" y="…"/>`) into verified empty space, and shorten any label wider than the corridor it annotates. |
+| Trusting "it looks fine" | Confirm with renderer ground truth: render the viewer URL and `--dump-dom`, then read `<path d="…">` segments and label `foreignObject` `padding-top/margin-left` anchors (see `references/troubleshooting.md` → "Verifying the rendered output"). |

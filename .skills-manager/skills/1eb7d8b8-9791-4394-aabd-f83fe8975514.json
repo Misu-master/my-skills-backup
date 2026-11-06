@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1eb7d8b8-9791-4394-aabd-f83fe8975514",
+  "path": "hello_js_reverse_skill",
+  "path_key": "hello_js_reverse_skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/WhiteNightShadow/hello_js_reverse_skill.git",
+    "subpath": null,
+    "branch": null
+  }
+}
